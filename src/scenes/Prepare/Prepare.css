@@ -1,0 +1,14 @@
+.Prepare .connections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Prepare .connection {
+  background: red;
+  width: 100px;
+  height: 70px;
+}
+
+.Prepare .connection.active {
+  background: green;
+}

@@ -1,7 +1,17 @@
-.App {
-  height: 100%;
+.Start div {
+  margin-top: 200px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+
+.Start svg {
+  font-size: 75px;
+}
+
+.Start svg:hover {
+  cursor: pointer;
+}
+
+.Start h1 {
+  font-size: 100px;
 }

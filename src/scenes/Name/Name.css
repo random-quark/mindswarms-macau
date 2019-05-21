@@ -1,0 +1,8 @@
+.Name .form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Name .form div {
+  width: 50%;
+}

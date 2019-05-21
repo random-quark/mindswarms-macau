@@ -69,9 +69,17 @@ function Start({ advanceScene }) {
       mediaRecorder.stop();
       download();
     }, 1000000);
+
+    setTimeout(() => {
+      advanceScene();
+    }, 2000);
   }, []);
 
-  return <canvas id="visualisation-canvas" width="100%" height="100%" />;
+  return (
+    <div className="Visualisation">
+      <canvas id="visualisation-canvas" />
+    </div>
+  );
 }
 
 export default Start;

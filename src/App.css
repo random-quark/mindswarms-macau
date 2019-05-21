@@ -1,5 +1,27 @@
-.html,
+html,
 body,
 #root {
   height: 100%;
+}
+
+.App {
+  background: linear-gradient(to bottom, #ffffff 0%, #bedde5 100%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.debugButton {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* background: black; */
+  /* width: 50px;
+  height: 50px; */
+  border-left: 25px solid black;
+  border-top: 25px solid black;
+  border-right: 25px solid transparent;
+  border-bottom: 25px solid transparent;
 }
